@@ -1,4 +1,10 @@
 {
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
   "dependencies": {
     "http-event-stream": "^0.2.0",
     "koa": "^2.14.2",
@@ -8,5 +14,10 @@
     "koa2-cors": "^2.0.6",
     "nodemon": "^2.0.22",
     "uuid": "^9.0.0"
-  }
+  },
+  "name": "hooks_context-use_json_fetch-back",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
